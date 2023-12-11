@@ -1,0 +1,211 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+body {
+  font-family: arial, '微軟正黑體';
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.top {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.top-nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top img {
+  height: 90px;
+  display: block;
+}
+
+.top ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  width: 70%;
+}
+
+.top li {
+  flex-basis: 0;
+  flex-grow: 1;
+  /* line-height: 1.6; */
+
+}
+
+.top li a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  transition: .2s linear;
+}
+
+.top li a:hover {
+  background-color: rgb(249, 181, 53);
+  filter: drop-shadow(0 0 10px rgb(238, 2, 2));
+}
+main{
+  background-image: url(../image/space-bg.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+.menu h1{
+  font-size: 64px;
+  color: white;
+  padding-top: 110px;
+  text-align: center;
+  font-family: 'Dhurjati', sans-serif;
+}
+.menu{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.menu h2{
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+}
+.menu_link h1{
+  font-size: 3em;
+  padding-top: 0;
+  /* margin: 0; */
+  text-align: left;
+  line-height: 1;
+}
+.menu_nav p{
+  font-size: 32px;
+  color: #fff;
+  padding: 10px 0;
+}
+.menu_nav{
+  width: 90%;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* align-items: baseline; */
+  margin: auto;
+  margin-top: 65px;
+}
+.menu_link{
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.menu_link p{
+  cursor: pointer;
+  width: 120px;
+
+}
+.menu_link p::after{ 
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background-color: #fff;
+  transition: width .5s ease;
+}
+
+.menu_link p:nth-child(2):hover:after{
+  width: 100px;
+}
+.menu_link p:nth-child(3):hover:after{
+  width: 100px;
+}
+.menu_link p:nth-child(4):hover:after{
+  width: 100px;
+}
+.menu_link p:nth-child(5):hover:after{
+  width: 100px;
+}
+.menu_list{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 80%;
+}
+.menu_list p{
+  text-align: center;
+}
+
+.menu_list img{
+  width: 250px;
+  height: 300px;
+  /* height: auto; */
+  object-fit: cover;
+  /* aspect-ratio: 1/1; */
+}
+/* --------footer--------- */
+.footer{
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer img{
+  height: 90px;
+}
+.footer ul{
+  display: flex;
+}
+.footer li{
+  margin-right: 25px;
+  font-size: 24px;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+.footer p{
+  color: white;
+  padding: 20px 0;
+  letter-spacing: 3px;
+  /* margin: 0 auto; */
+}
+.footer_2{
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer_2 img{
+  height: 20px;
+  margin: 0 5px;
+}
+.footer_2 p{
+  margin-right: 15px;
+}
+

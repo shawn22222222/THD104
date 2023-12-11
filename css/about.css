@@ -1,0 +1,260 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+body {
+  font-family: arial, '微軟正黑體';
+  font-size: 16px;
+  line-height: 1.6;
+}
+body *{
+  overflow: hidden;
+}
+
+.top {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.top-nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top img {
+  height: 90px;
+  display: block;
+}
+
+.top ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  width: 70%;
+}
+
+.top li {
+  flex-basis: 0;
+  flex-grow: 1;
+  /* line-height: 1.6; */
+
+}
+
+.top li a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  transition: .2s linear;
+}
+
+.top li a:hover {
+  background-color: rgb(249, 181, 53);
+  filter: drop-shadow(0 0 10px rgb(238, 2, 2));
+}
+/* -----our story------- */
+
+.our_story{
+  background-image: url(../image/nightlife-celebration-multi-colored-bar-establishment-generative-ai.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  /* background-attachment: fixed; */
+}
+.our_story_text{
+  color: white;
+  margin-left: auto;
+  margin-top: 130px;
+  margin-right: 20px;
+  width: 50%;
+}
+.our_story h1{
+  font-size: 84px;
+  font-family: 'Dhurjati', sans-serif;
+}
+.our_story h2{
+  font-size: 32px;
+}
+.article{
+  background-image: url(../image/space-bg.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+}
+.article_text{
+  width: 70%;
+  margin: 0 auto;
+}
+.article h1{
+  font-size: 4em;
+  font-weight: bold;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+.article h2{
+  font-size: 32px;
+}
+.article_img{
+ display: flex;
+ width: 80%;
+ margin: 0 auto;
+ justify-content: center;
+ align-items: flex-end;
+ gap: 10px;
+ padding-top: 30px;
+ box-sizing: border-box;
+ min-height: 250px;
+}
+.article_img img:nth-child(2){
+  align-self: flex-start;
+}
+.article_img img{
+  display: block;
+  width: 30%;
+  /* aspect-ratio: 4/5; */
+  /* flex-grow: 1; */
+}
+.bartender{
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-shrink: 0;
+}
+.bartender img{
+  width: 100%;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+
+.text_position1{
+  width: 25%;
+  position: relative;
+}
+.text_position1 p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  color: white;
+  opacity: 0;
+}
+.text_position1 img:hover{
+  opacity: .5;
+  transform: translateY(-20px);
+}
+.text_position1:hover p{
+  opacity: 1;
+}
+/* ------------------- */
+.text_position2{
+  width: 25%;
+  position: relative;
+}
+.text_position2 p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  color: white;
+  opacity: 0;
+}
+.text_position2 img:hover{
+  opacity: .5;
+  transform: translateY(-20px);
+}
+.text_position2:hover p{
+  opacity: 1;
+}
+/* ----------------------- */
+.text_position3{
+  width: 25%;
+  position: relative;
+}
+.text_position3 p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  color: white;
+  opacity: 0;
+}
+.text_position3 img:hover{
+  opacity: .5;
+  transform: translateY(-20px);
+}
+.text_position3:hover p{
+  opacity: 1;
+}
+/* ----------footer----------- */
+.footer{
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer img{
+  height: 90px;
+}
+.footer ul{
+  display: flex;
+}
+.footer li{
+  margin-right: 25px;
+  font-size: 24px;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+.footer p{
+  color: white;
+  padding: 20px 0;
+  letter-spacing: 3px;
+  /* margin: 0 auto; */
+}
+.footer_2{
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer_2 img{
+  height: 20px;
+  margin: 0 5px;
+}
+.footer_2 p{
+  margin-right: 15px;
+}
+
