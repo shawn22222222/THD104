@@ -84,7 +84,7 @@ body {
   /* background-color: rgba(22,74,207,.3); */
   border-radius: 30px;
   padding: 30px;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(2px);
   border: 1px solid #fff;
 }
 .login_box .input-box{
@@ -102,6 +102,15 @@ body {
   text-indent: 3%;
   font-size: 16px;
 }
+.input-box input:focus::placeholder{
+  visibility: hidden;
+}
+
+.input-box input[type]{
+  color: #fff;
+  text-indent: 3%;
+}
+
 .input-box input{
   background-color: transparent;
   border-radius: 40px;

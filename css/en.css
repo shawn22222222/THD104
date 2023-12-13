@@ -6,9 +6,6 @@ body {
   font-size: 16px;
   line-height: 1.6;
 }
-body *{
-  overflow: hidden;
-}
 
 .top {
   width: 100%;
@@ -90,6 +87,7 @@ main .wrapper{
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  overflow: hidden;
 }
 .wrapper .en{
   width: 90%;
@@ -135,15 +133,18 @@ main .wrapper{
 .place_1{
   display: flex;
   margin-top: 40px;
+  gap: 80px;
 }
 .place_1 img{
-  width: 60%;
+  width: 55%;
 }
 .place_1_text{
   width: 40%;
+  text-align: left;
 }
 .place_1 h2{
   font-size: 32px;
+  font-weight: normal;
 }
 /* --------footer--------- */
 .footer{

@@ -5,9 +5,6 @@ body {
   font-size: 16px;
   line-height: 1.6;
 }
-body *{
-  overflow: hidden;
-}
 
 .top {
   width: 100%;
@@ -51,7 +48,6 @@ body *{
 .top li {
   flex-basis: 0;
   flex-grow: 1;
-  /* line-height: 1.6; */
 
 }
 
@@ -77,7 +73,7 @@ body *{
   height: 100vh;
   background-size: cover;
   background-position: center center;
-  /* background-attachment: fixed; */
+  overflow: hidden;
 }
 .our_story_text{
   color: white;
@@ -91,7 +87,7 @@ body *{
   font-family: 'Dhurjati', sans-serif;
 }
 .our_story h2{
-  font-size: 32px;
+  font-size: 28px;
 }
 .article{
   background-image: url(../image/space-bg.jpg);
@@ -163,7 +159,7 @@ body *{
   color: white;
   opacity: 0;
 }
-.text_position1 img:hover{
+.text_position1:hover img{
   opacity: .5;
   transform: translateY(-20px);
 }
@@ -183,7 +179,7 @@ body *{
   color: white;
   opacity: 0;
 }
-.text_position2 img:hover{
+.text_position2:hover img{
   opacity: .5;
   transform: translateY(-20px);
 }
@@ -203,7 +199,7 @@ body *{
   color: white;
   opacity: 0;
 }
-.text_position3 img:hover{
+.text_position3:hover img{
   opacity: .5;
   transform: translateY(-20px);
 }
