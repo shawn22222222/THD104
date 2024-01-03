@@ -5,7 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="./css/en.css">
+  <link rel="stylesheet" href="./css/header&footer_rwd.css">
+  <link rel="stylesheet" href="./css/en_rwd.css">
 </head>
 
 <body>
@@ -14,7 +17,8 @@
       <div class="container">
         <div class="top-nav">
           <a href="index.html"><img src="./image/new_logo-removebg-preview.png" alt=""></a>
-          <ul>
+          <i class="fa-solid fa-bars"></i>
+          <ul class="top-nav_ul">
             <li>
               <a href="about.html">關於我們</a>
             </li>
@@ -40,7 +44,33 @@
   </header>
   <main>
     <div class="banner">
-      <h1>Environment</h1>
+      <i class="fa-solid fa-chevron-left"></i>
+      <i class="fa-solid fa-chevron-right"></i>
+      <div class="banner_img">
+        <div class="slide_img active">
+          <img src="./image/en.jpg" alt="">
+          <h1>環境</h1>
+        </div>
+        <div class="slide_img">
+          <img src="./image/ximenjaysoul-51-scaled.jpg" alt="">
+          <h1>宇宙包廂</h1>
+        </div>
+        <div class="slide_img">
+          <img src="./image/slide2.jpg" alt="">
+          <h1>寶藍色階梯</h1>
+        </div>
+        <div class="slide_img">
+          <img src="./image/slide3.jpg" alt="">
+          <h1>太空艙隧道</h1>
+        </div>
+      </div>
+      <div class="indicators">
+        <div class="slide light"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+      </div>
+
     </div>
     <div class="wrapper">
       <div class="en">
@@ -99,6 +129,8 @@
       <span>禁止飲酒</span>
     </div>
   </footer>
+  <script src="./js/all.js"></script>
+  <script src="./js/en.js"></script>
 </body>
 
 </html>

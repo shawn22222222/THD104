@@ -1,0 +1,20 @@
+@media screen and (max-width: 800px){
+  .login_box,
+  #lightbox > article{
+    width: 65%;
+  }
+}
+@media screen and (max-width: 440px){
+  .login_box,
+  #lightbox > article{
+    width: 68%;
+    height: 55%;
+  }
+  .login_box .input-box,
+  #lightbox form{
+    width: 90%;
+  }
+  .login_bg h1{
+    font-size: 32px;
+  }
+}

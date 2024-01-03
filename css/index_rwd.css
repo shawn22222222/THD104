@@ -1,0 +1,110 @@
+@media screen and (max-width: 800px){
+/* -------brand------- */
+  .brand_text h1{
+    font-size: 40px;
+  }
+  .brand_text h2{
+    font-size: 24px;
+  } 
+  .space_bg .menu{
+    padding: 55px 0 20px;
+    font-size: 40px;
+  }
+  .space_bg .menu_info p{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 750px){
+/* --------video------- */
+  .wrapper .text h1{
+  font-size: 50px;
+}
+  .wrapper .text h1::after{
+  width: 400px;
+}
+  .wrapper .text h2{
+  font-size: 28px;
+}
+  .wrapper .text h3{
+  font-size: 28px;
+}
+}
+
+@media screen and (max-width: 675px){
+ 
+  .brand_info{
+    flex-direction: column;
+  }
+  .brand_text{
+    order: 1;
+    width: 80%;
+  }
+  .brand_info img{
+    order: 2;
+    margin-top: 20px;
+  }
+  .space_bg .menu_info a{
+    font-size: 12px;
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  /* -----video----- */
+  .wrapper .text h1{
+    font-size: 40px;
+  }
+  .wrapper .text h2{
+    font-size: 23px;
+  }
+  .wrapper .text h3{
+    font-size: 23px;
+  }
+  .wrapper .text{
+    width: 90%;
+  }
+  .wrapper .text h1::after {
+    width: 330px;
+  }
+  .wrapper .text a{
+    margin-top: 20px;
+  } 
+  .brand_text h1:after{
+    width: 30%;
+  }
+  .space_bg .menu::after{
+    width: 20%;
+  }
+  
+}
+
+@media screen and (max-width: 426px){
+  .brand_info img{
+    width: 50%;
+  }
+  .brand_text h1:after{
+    width: 40%;
+  }
+  .brand_text h1,
+  .space_bg .menu{
+    font-size: 36px;
+  }
+  .brand_text h2{
+    font-size: 20px;
+  }
+  .space_bg .menu_info a{
+    width: 65px;
+  }
+  .space_bg .menu_info li{
+    margin-bottom: 20px;
+  }
+  .space_bg .menu_info li:nth-child(4){
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 376px){
+  .space_bg .menu_info a{
+    padding: 8px;
+  }
+}

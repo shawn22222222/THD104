@@ -1,0 +1,165 @@
+@media screen and (max-width: 800px) {
+  .article h1 {
+    font-size: 40px;
+  }
+
+  .article h2 {
+    font-size: 24px;
+  }
+
+  .article h1::after {
+    width: 25%;
+  }
+
+  .person_info h1::after {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .our_story h1 {
+    font-size: 64px;
+  }
+
+  .our_story h2 {
+    font-size: 24px;
+  }
+  .article h1::after{
+    width: 35%;
+  }
+  .person_info h1::after {
+    width: 15%;
+  }
+  .gallery h1::after{
+    width: 20%;
+  }
+  .gallery_img{
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .article_img img {
+    margin-bottom: 10px;
+  }
+
+  .article h1::after {
+    width: 35%;
+  }
+
+  .person_info h1::after {
+    width: 12%;
+  }
+  .gallery h1::after{
+    width: 25%;
+  }
+
+  .gallery_img {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .gallery_img img:nth-child(1) {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
+
+  .gallery_img img:nth-child(2) {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+
+  .gallery_img img:nth-child(3) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+
+  .gallery_img img:nth-child(4) {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .gallery_img img:nth-child(5) {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+
+  .gallery_img img:nth-child(6) {
+    grid-column: 2 / 4;
+    grid-row: 3 / 5;
+  }
+
+  .gallery_img img:nth-child(7) {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  }
+
+  .gallery_img img:nth-child(8) {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+  }
+
+  .gallery_img img:nth-child(9) {
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+  }
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .our_story {
+    background-position-x: -205px;
+  }
+
+  .our_story h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .our_story {
+    background-position-x: -317px;
+  }
+
+  .our_story h1 {
+    font-size: 50px;
+  }
+  .article h1{
+    font-size: 36px;
+  }
+  .article h2{
+    font-size: 20px;
+  }
+
+  .our_story_text {
+    width: 65%;
+  }
+
+  .article_text {
+    width: 85%;
+  }
+
+  .article h1::after {
+    width: 45%;
+  }
+
+  .person_info h1::after {
+    width: 25%;
+  }
+  .gallery h1::after{
+    width: 35%;
+  }
+}
+@media screen and (max-width: 376px){
+  .article h1::after{
+    width: 55%;
+  }
+  .person_info h1::after{
+    width: 27%;
+  }
+  .gallery h1::after{
+    width: 40%;
+  }
+}

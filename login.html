@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="./css/header&footer_rwd.css">
+  <link rel="stylesheet" href="./css/login_rwd.css">
 </head>
 
 <body>
@@ -14,7 +17,8 @@
       <div class="container">
         <div class="top-nav">
           <a href="index.html"><img src="./image/new_logo-removebg-preview.png" alt=""></a>
-          <ul>
+          <i class="fa-solid fa-bars"></i>
+          <ul class="top-nav_ul">
             <li>
               <a href="about.html">關於我們</a>
             </li>
@@ -47,13 +51,34 @@
             <input type="text" placeholder="帳號" required>
             <input type="password" placeholder="密碼" required>
             <div class="forget-pwd">
-              <a href="#">忘記密碼?</a>
-              <a href="#">註冊成為會員</a>
+              <a href="#" class="forget">忘記密碼?</a>
+              <a href="#" class="member">註冊成為會員</a>
             </div>
             <button type="submit" class="btn">登入</button>
           </div>
         </div>
       </form>
+
+      <div id="lightbox" class="none">
+        <article>
+          <i class="fa-solid fa-xmark"></i>
+          <form>
+            <h1>會員註冊</h1>
+            <input type="text" placeholder="帳號" required>
+            <input type="password" placeholder="密碼" required>
+            <input type="password" placeholder="確認新密碼" required>
+            <input type="email" placeholder="請輸入完整有效Email" required>
+            <input type="text" placeholder="行動電話" required>
+            <button>註冊
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+
+          </form>
+        </article>
+      </div>
     </div>
   </main>
   <footer>
@@ -88,6 +113,8 @@
       <span>禁止飲酒</span>
     </div>
   </footer>
+  <script src="./js/all.js"></script>
+  <script src="./js/login.js"></script>
 </body>
 
 </html>

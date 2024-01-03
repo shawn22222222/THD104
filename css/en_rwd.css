@@ -1,0 +1,140 @@
+@media screen and (max-width: 1177px){
+  .en img {
+    width: 360px;
+  }
+  .place_1 img{
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 978px){
+  .en_text h1{
+    font-size: 40px;
+  }
+  .en_text h2{
+    font-size: 24px;
+  }
+  .place h1{
+    font-size: 40px;
+  }
+  .place_1 h2{
+    font-size: 24px;
+  }
+  .wrapper .en{
+    gap: 60px;
+  }
+  .place_1 img{
+    width: 460px;
+  }
+}
+@media screen and (max-width: 932px){
+  .en img{
+    width: 320px;
+  }
+}
+@media screen and (max-width: 844px){
+  .wrapper .en_text:nth-of-type(1){
+    order: -1;
+  }
+  .place_1_text{
+    order: -1;
+    max-width: 80%;
+  }
+  .en_text{
+    width: 80%;
+  }
+  .wrapper .en{
+    gap: 30px;
+  }
+  .en_text h1 {
+    margin-top: 0px;
+  }
+  .wrapper .en_text:nth-of-type(2) h1{
+    margin-top: 60px;
+  }
+  .en img:nth-of-type(2){
+    margin-top: 0;
+  }
+  .wrapper .place{
+    margin-top: 60px;
+  }
+  .place_1{
+    margin-top: 0;
+  }
+  .place_1 h2{
+    margin-bottom: 30px;
+  }
+  .en_text h1::after{
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .banner img{
+    object-fit: cover;
+  }
+  .wrapper .en{
+    padding-top: 60px;
+  }
+
+  .place h1{
+    font-size: 40px;
+  }
+  .place_1 h2 {
+    font-size: 24px;
+  }
+ 
+}
+@media screen and (max-width: 500px){
+  .banner h1{
+    font-size: 28px;
+  }
+  .fa-chevron-right:before{
+    font-size: 32px;
+  }
+  .fa-chevron-left:before{
+    font-size: 32px;
+  }
+  .banner_img .slide_img:nth-child(1) > img{
+    object-position: -80px;
+  }
+  .place_1 img{
+    width: 400px;
+  }
+  .en_text h1::after{
+    width: 50%;
+  }
+  .place h1:after{
+    width: 43%;
+  }
+  }
+@media screen and (max-width: 426px){
+  .banner_img .slide_img:nth-child(4) > img{
+    object-position: -330px;
+  }
+  .en img{
+    width: 300px;
+  }
+  .place_1 img{
+    width: 300px;
+  }
+  .en_text h1{
+    font-size: 36px;
+  }
+  .en_text h2{
+    font-size: 20px;
+  }
+  .place h1{
+    font-size: 36px;
+  }
+  .place_1 h2{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 376px){
+  .en_text h1::after{
+    width: 65%;
+  }
+  .place h1:after{
+    width: 48%;
+  }
+}

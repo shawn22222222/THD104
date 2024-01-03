@@ -5,7 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="./css/book.css">
+  <link rel="stylesheet" href="./css/header&footer_rwd.css">
+  <link rel="stylesheet" href="./css/book_rwd.css">
 </head>
 
 <body>
@@ -14,7 +17,8 @@
       <div class="container">
         <div class="top-nav">
           <a href="index.html"><img src="./image/new_logo-removebg-preview.png" alt=""></a>
-          <ul>
+          <i class="fa-solid fa-bars"></i>
+          <ul class="top-nav_ul">
             <li>
               <a href="about.html">關於我們</a>
             </li>
@@ -42,8 +46,8 @@
     <div class="book_bg">
       <form action="#">
         <div class="book_box">
-          <h1>訂位</h1>
           <div class="book_box_content">
+            <h1>訂位</h1>
             <div class="date">
               <h2>選擇日期:</h2>
               <input type="date">
@@ -71,11 +75,11 @@
             </div>
             <div class="name">
               <label for="name">姓名:</label>
-              <input type="text" id="name">
+              <input type="text" id="name" autocomplete="off">
             </div>
             <div class="phone">
               <label for="tel">電話:</label>
-              <input type="tel" id="tel">
+              <input type="tel" id="tel" autocomplete="off">
             </div>
             <button type="submit">確認訂位</button>
           </div>
@@ -115,6 +119,7 @@
       <span>禁止飲酒</span>
     </div>
   </footer>
+  <script src="./js/all.js"></script>
 </body>
 
 </html>
