@@ -187,9 +187,7 @@ main{
   height: 250px;
   object-fit: cover;
 }
-.menu_list .menu_list_item:nth-child(1) > img{
-  object-position: -120px;
-}
+
 .menu_list_item{
   margin-bottom: 30px;
   margin-left: 40px;
